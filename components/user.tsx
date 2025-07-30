@@ -85,6 +85,7 @@ export function User({
         <DropdownMenuRadioGroup value={theme} onValueChange={setTheme}>
           <DropdownMenuRadioItem value="light" onClick={onClick}>Light</DropdownMenuRadioItem>
           <DropdownMenuRadioItem value="dark" onClick={onClick}>Dark</DropdownMenuRadioItem>
+          <DropdownMenuRadioItem value="custom" onClick={onClick}>Custom</DropdownMenuRadioItem>
           <DropdownMenuRadioItem value="system" onClick={onClick}>System</DropdownMenuRadioItem>
         </DropdownMenuRadioGroup>
         <DropdownMenuSeparator />

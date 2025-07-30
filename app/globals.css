@@ -47,6 +47,51 @@
     --input: 0 0% 19.9%;
     --ring: 0 0% 83.1%;
   }
+
+  .custom{
+      /* Base Colors - Clean and bright for readability */
+      --background: 0 0% 98%;          /* Very light off-white, slightly warmer */
+      --foreground: 210 15% 15%;        /* Dark gray with a cool tint for primary text */
+    
+      /* Card Colors - Subtle distinction for layered elements */
+      --card: 0 0% 100%;                /* Pure white for cards */
+      --card-foreground: 210 15% 15%;   /* Same as foreground */
+    
+      /* Popover Colors - Light and airy for transient elements */
+      --popover: 0 0% 100%;             /* Pure white */
+      --popover-foreground: 210 15% 15%;/* Same as foreground */
+    
+      /* Primary Accent - A modern, appealing blue-violet */
+      --primary: 260 80% 55%;           /* A rich, medium-light blue-violet */
+      --primary-foreground: 0 0% 98%;   /* Very light for high contrast on primary */
+    
+      /* Secondary Elements - Softer, supporting colors with a subtle hue */
+      --secondary: 220 20% 92%;         /* A light, cool gray/blue for secondary actions */
+      --secondary-foreground: 210 15% 25%; /* Darker text for good contrast */
+    
+      /* Muted Text/Elements - For less emphasis, but still visually interesting */
+      --muted: 210 10% 90%;             /* Lighter, subtle cool gray */
+      --muted-foreground: 210 10% 50%;  /* Medium gray, clearly muted */
+    
+      /* Accent Elements - A warm, inviting accent color (e.g., soft orange/gold) */
+      --accent: 35 90% 60%;             /* A vibrant yet tasteful orange/gold */
+      --accent-foreground: 210 15% 10%; /* Dark text for high contrast on accent */
+    
+      /* Destructive Actions - A clear, impactful red */
+      --destructive: 0 85% 50%;         /* A classic, highly visible red */
+      --destructive-foreground: 0 0% 98%; /* Very light for safety warnings */
+    
+      /* Borders and Inputs - Clear definition without being heavy */
+      --border: 210 10% 85%;            /* Light, subtle cool gray for borders */
+      --input: 210 10% 85%;             /* Consistent with border */
+    
+      /* Focus Ring - Highly visible and complementary to primary */
+      --ring: 260 90% 70%;              /* Brighter, more saturated version of primary hue */
+    
+      /* Radius (no change as it's not a color) */
+      --radius: 0.75rem;
+    
+    }
 }
 
 @layer base {
